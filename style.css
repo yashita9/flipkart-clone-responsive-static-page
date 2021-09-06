@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(45, 107, 221);
+    color: white;
+    font-family: 'STIX Two Math', serif;
+}
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+ }
+
+.logo img{
+    width: 100px;
+    padding: 0 20px;
+ }
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 65px;
+    align-items: center;
+
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 23px;
+    border-radius: 5px;
+    margin: 0 15px;
+    padding: 0 10px;
+}
+
+.search button{
+    font-family: 'STIX Two Math', serif;
+}
+
+.slider{
+    width: 65vw;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.card{
+    background-color: whitesmoke;
+    max-width: 80vw;
+    margin: 25px auto;
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 26px;
+}
+
+.card h2{
+    font-family: 'STIX Two Math', serif;
+}
+
+.container{
+    min-height: calc(100vh - 65px - 10vh);
+}
+
+footer{
+    background-color:  rgb(45, 107, 221);
+    color: white;
+    height: 10vh;
+    font-family: 'STIX Two Math', serif;
+}
